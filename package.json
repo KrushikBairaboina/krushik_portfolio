@@ -1,5 +1,5 @@
 {
-  "name": "LegoVerse",
+  "name": "krushik_portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,8 +22,8 @@
     "framer-motion": "^11.3.21",
     "next": "^15.3.4",
     "pdfjs-dist": "^5.4.54",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
     "react-pdf": "^10.0.1",
     "react-router-dom": "^7.6.2",
