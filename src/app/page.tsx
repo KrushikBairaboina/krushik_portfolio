@@ -17,29 +17,31 @@ export default function Home() {
         <HeroSection />
       </section>
       <section id="journey">
-        <JourneySection/>
+        <JourneySection />
       </section>
       <section id="skills">
-        <SkillsSection/>
+        <SkillsSection />
       </section>
-    
-      <section id="blogs">
-        <BlogSection/>
-      </section>
-      <HobbiesSection />
-<section id="contact">
-  <ContactSection 
-    email={process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? ""} 
-    phone={process.env.NEXT_PUBLIC_CONTACT_PHONE ?? ""}
-  />
-</section>
-<Footer 
-  linkedin={process.env.NEXT_PUBLIC_LINKEDIN_URL ?? ""} 
-  github={process.env.NEXT_PUBLIC_GITHUB_URL ?? ""}
-  instagram={process.env.NEXT_PUBLIC_INSTAGRAM_URL ?? ""}
-  youtube={process.env.NEXT_PUBLIC_YOUTUBE_URL ?? ""}
-/>
 
+      <section id="blogs">
+        <BlogSection />
+      </section>
+
+      <HobbiesSection />
+
+      <section id="contact">
+        <ContactSection 
+          email="krushikbairaboina14@gmail.com"
+          phone="+916301299809"
+        />
+      </section>
+
+      <Footer 
+        linkedin="https://www.linkedin.com/in/krushik-bairaboina-43275225a/"
+        github="https://github.com/KrushikBairaboina"
+        instagram="https://www.instagram.com/krushi___14/"
+        youtube="https://www.youtube.com/@krushikbairaboina7191"
+      />
     </div>
   );
 }
