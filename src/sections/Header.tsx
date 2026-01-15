@@ -90,7 +90,7 @@ export const Header = () => {
     <div className="fixed w-full z-10">
       <nav className="flex items-center justify-between p-1 bg-white dark:bg-gray-800 shadow-md mx-auto">
         {/* Logo */}
-        <a href="#home" className="p-2">
+        <a href="" className="p-2">
           <h1 className="text-xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500 uppercase">
             Krushik Bairaboina
           </h1>
