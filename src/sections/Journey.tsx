@@ -5,7 +5,7 @@ import image1 from "@/assets/image1.png";
 import image2 from "@/assets/image2.png";
 import image3 from "@/assets/image3.png";
 import image4 from "@/assets/image4.jpg";
-import image5 from "@/assets/image5.jpg";
+import image5 from "@/assets/image5.png";
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 
@@ -15,7 +15,7 @@ const technologies = [
     alt: "Lego Verse Module Pvt. Ltd. Logo",
     title: "Full-Stack Developer",
     tagline: "Lego Verse Module Pvt. Ltd.",
-    dates: "Dec 2023 – Present",
+    dates: "Jan 2025 – Present",
     focusArea: "MERN Stack",
     results: [
       { title: "Developed features for AI Avatara chatbot" },
@@ -28,8 +28,8 @@ const technologies = [
     alt: "Iolar Technologies Pvt. Ltd. Logo",
     title: "Frontend Developer",
     tagline: "Iolar Technologies Pvt. Ltd.",
-    dates: "Dec 2022 – Nov 2023",
-    focusArea: "Frontend",
+    dates: "Jan 2024 – Dec 2024",
+    focusArea: "React Js",
     results: [
       { title: "Refined front-end features with senior devs" },
       { title: "Implemented UI/UX based on user research" },
@@ -62,6 +62,19 @@ const technologies = [
       { title: "Dynamic blog section and contact form" },
     ],
   },
+  {
+  img: image5,
+  alt: "Zynk Social Media Platform",
+  title: "Zynk",
+  tagline: "Social Media Website",
+  dates: "2025",
+  focusArea: "Full-Stack",
+  results: [
+    { title: "Built a social media platform with user authentication" },
+    { title: "Implemented posts, likes, stories, and follow system" },
+    { title: "Developed responsive UI using React & Tailwind CSS" },
+  ],
+},
 ];
 
 export const JourneySection = () => {

@@ -144,8 +144,8 @@ export const HeroSection = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
          <Link
-            href="/Bairaboina_Krushik_Resume.pdf"
-            download="Bairaboina_Krushik_Resume.pdf"
+            href="krushik_resume.pdf"
+            download="krushik_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-gray-400 dark:border-white/15 px-6 h-12 rounded-xl text-gray-900 dark:text-white"
