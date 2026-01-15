@@ -77,7 +77,7 @@ export const Header = () => {
       if (closestSection && closestSection !== activeSection) {
         setActiveSection(closestSection);
       }
-    }, 100);
+    }, 1);
 
     window.addEventListener("scroll", handleScroll);
     handleScroll();
