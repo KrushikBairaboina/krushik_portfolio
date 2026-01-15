@@ -60,7 +60,7 @@ export const Header = () => {
       if (closestSection && closestSection !== activeSection) {
         setActiveSection(closestSection);
       }
-    }, ); // ✅ Added wait time (100ms)
+    }, 100); // ✅ Added wait time (100ms)
 
     window.addEventListener("scroll", handleScroll);
     handleScroll();
