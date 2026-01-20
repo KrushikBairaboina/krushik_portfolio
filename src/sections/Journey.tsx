@@ -105,11 +105,11 @@ export const JourneySection = () => {
                   <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl text-gray-900 dark:text-white">
                     {tech.tagline}
                   </h3>
-                  {tech.dates && (
+                  {/* {tech.dates && (
                     <p className="mt-1 text-sm md:text-base text-gray-500 dark:text-white/40">
                       {tech.dates}
                     </p>
-                  )}
+                  )} */}
                   <hr className="border-t-2 border-gray-300/20 dark:border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {tech.results.map((result, i) => (
